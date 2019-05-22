@@ -14,8 +14,8 @@ db =pymysql.connect(host = 'localhost',
 cur = db.cursor()
 
 #存储文件
-# with open('bitree.jpg','rb') as fd:
-#     data = fd.read()
+with open('bitree.jpg','rb') as fd:
+    data = fd.read()
 # try:
 #     sql = "insert into Images values (1,'Bitree.jpg',%s);"
 #     cur.execute(sql,[data])
