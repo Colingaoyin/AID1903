@@ -13,6 +13,8 @@ db =pymysql.connect(host = 'localhost',
 # 创建游标
 cur = db.cursor()
 
+print("")
+
 #存储文件
 with open('bitree.jpg','rb') as fd:
     data = fd.read()
